@@ -6,10 +6,15 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 14:19:33 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/04/16 14:21:26 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/04/16 16:46:33 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanA.hpp"
 #include "HumanB.hpp"
 #include "Weapon.hpp"
+
+int	main(void)
+{
+	return (0);
+}
