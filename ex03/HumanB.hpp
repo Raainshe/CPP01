@@ -6,7 +6,7 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 16:35:00 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/04/16 16:40:19 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/04/17 13:09:16 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,18 @@
 
 # include "HumanA.hpp"
 # include "Weapon.hpp"
+
+class HumanB
+{
+    private:
+        Weapon* weaponPtr;
+        std::string name;
+    public:
+        HumanB(std::string name);
+        ~HumanB();
+
+        void attack(void);
+        void setWeapon(Weapon& weapon);
+};
 
 #endif

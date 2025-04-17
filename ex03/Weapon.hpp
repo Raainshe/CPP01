@@ -6,7 +6,7 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 14:21:29 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/04/16 16:00:40 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/04/17 13:09:15 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <iomanip>
 # include <iostream>
 # include <string>
+
 class Weapon
 {
   private:
@@ -23,10 +24,11 @@ class Weapon
 
   public:
 	Weapon();
-
+	Weapon(std::string type);
+	
 	~Weapon();
-	std::string getType(void);
-	void setTpye(std::string type);
+	const std::string& getType(void) const;
+	void setType(std::string type);
 };
 
 #endif
