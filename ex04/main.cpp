@@ -6,7 +6,7 @@
 /*   By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/17 17:04:53 by rmakoni           #+#    #+#             */
-/*   Updated: 2025/04/18 14:52:52 by rmakoni          ###   ########.fr       */
+/*   Updated: 2025/04/18 15:06:09 by rmakoni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static bool readReplace(std::string filename, std::string s1, std::string s2)
         return (false);
     }
 
-    std::string OutputFileName = "Replaced Data " + filename;
+    std::string OutputFileName =  filename + ".replace";
     std::ofstream outputFile(OutputFileName.c_str());
     if(!outputFile.is_open())
     {
