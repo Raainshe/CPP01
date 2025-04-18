@@ -1,0 +1,16 @@
+Hello world! This is a test file.
+replace replace replace
+This line has the word replace at the end: replace
+replace is at the beginning of this line.
+No instances of that word here.
+Replacereplacereplace - testing no spaces
+re place - testing with a space
+REPLACE - testing case sensitivity
+Some overlapping patterns: rereplaceplace
+Some special characters: @#$%^&*()
+Multiple lines
+with various
+content to test
+your program.
+The word replace appears again here.
+End of file with replace

@@ -6,13 +6,14 @@
 #    By: rmakoni <rmakoni@student.42heilbronn.de    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/17 16:48:37 by rmakoni           #+#    #+#              #
-#    Updated: 2025/04/17 17:06:28 by rmakoni          ###   ########.fr        #
+#    Updated: 2025/04/18 14:54:10 by rmakoni          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = sed
 
 SRC = 	main.cpp \
+		Validation.cpp \
 		
 
 OBJ = $(SRC:.cpp=.o)
